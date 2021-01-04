@@ -1,0 +1,180 @@
+.home-banner {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 0px;
+  padding: 20vh 0;
+  position: relative;
+}
+
+.landing-page-text {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: montserrat;
+  font-size: 32px;
+
+}
+
+.welcome-section {
+  display: block;
+  text-align: center;
+}
+
+.first-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: yellow;
+}
+
+.second-section {
+  background-color: $bronze;
+  display: block;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-top: -300px;
+}
+
+.quote {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.intro {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.intro-picture {
+  height: 50vh;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about {
+  background-color: $light-gray;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#about {
+  text-align: center;
+}
+
+.portfolio {
+  background-color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact {
+  background-color: $dark-gray;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.lines {
+  display: flex;
+  width: 200px;
+  height: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding-right: 5px;
+  justify-content: center;
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-image: linear-gradient(180deg, black, black);
+}
+
+.line-white {
+  width: 100px;
+  height: 2px;
+  background-image: linear-gradient(180deg, white, white);
+}
+
+.intro-id {
+  margin-right: 50px;
+}
+
+h2 {
+  font-family: montserrat;
+}
+
+.main-text-text {
+  font-size: 28px;
+}
+
+
+.main-text.main-text--offset {
+  margin-bottom: 30px;
+}
+
+.main-text {
+  display: block;
+  flex: 0 auto;
+}
+
+.main-text-text.left-aligned {
+  text-align: left;
+}
+
+.main-text-text {
+  display: block;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-text-line.left-aligned {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.main-text-line {
+  display: block;
+  width: 120px;
+  height: 8px;
+  background-image: linear-gradient(80deg, $very-dark-bronze, $bronze);
+  text-align: center;
+}
+
+.p-text {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: normal;
+  text-align: left;
+}
+
+
+.skills {
+  margin-top: 50px;
+}
+
+.text-skills {
+  margin-right: 0;
+  margin-left: 0 !important;
+  text-align: left;
+  font-size: 16px;
+  line-height: 32px;
+
+}
+
+
