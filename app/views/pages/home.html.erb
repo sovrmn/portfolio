@@ -81,7 +81,7 @@
                   <div class="portfolio-card">
                     <%= link_to project.url, target: "_blank" do %>
                       <div class="portfolio-img">
-                        <%= cl_image_tag project.project_photo.key, width: 648, crop: :fit %>
+                        <%= cl_image_tag project.photo.key, width: 648, crop: :fit %>
                       </div>
                       <div class="portfolio-intro">
                         <h6><%= project.name %></h6>
