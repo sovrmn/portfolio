@@ -75,6 +75,23 @@
         A selection of my work as a marketing specialist and as a web developer
       </div>
       <!-- app/views/articles/index.html.erb -->
+      <div class="section">
+              <div class="portfolio-cards">
+                <% @projects.each do |project| %>
+                  <div class="portfolio-card">
+                    <%= link_to project.url, target: "_blank" do %>
+                      <div class="portfolio-img">
+                        <%= cl_image_tag project.project_photo.key, width: 648, crop: :fit %>
+                      </div>
+                      <div class="portfolio-intro">
+                        <h6><%= project.name %></h6>
+                        <p><%= project.project_type %></p>
+                      </div>
+                    <% end %>
+                  </div>
+                <% end %>
+              </div>
+            </div>
     </div>
   </div>
 </div>
