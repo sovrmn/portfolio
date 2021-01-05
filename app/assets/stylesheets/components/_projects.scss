@@ -1,7 +1,11 @@
+.intro-text-portfolio {
+  margin-bottom: 72px;
+}
+
 .portfolio-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 
 .portfolio-img img {
