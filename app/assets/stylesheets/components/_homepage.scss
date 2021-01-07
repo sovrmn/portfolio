@@ -51,6 +51,7 @@
 .intro {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .intro-picture {
@@ -112,6 +113,7 @@
   margin-right: 50px;
 }
 
+
 h2 {
   font-family: montserrat;
 }
@@ -165,7 +167,7 @@ h2 {
 
 
 .skills {
-  margin-top: 50px;
+  margin-top: 16px;
 }
 
 .text-skills {
@@ -177,4 +179,17 @@ h2 {
 
 }
 
+@media (max-width: 1200px) {
+  .intro-id {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  .intro {
+  display: flex;
+  flex-direction: column;
+  }
+}
 
