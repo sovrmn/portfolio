@@ -28,24 +28,37 @@
 .portfolio-intro {
   width: 100%;
   position: absolute;
-  bottom: -70px;
+  bottom: -60px;
   text-align: center;
   overflow: hidden;
-  text-transform: uppercase;
   transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  color: #000;
+  color: black;
   display: grid;
   justify-content: center;
 }
 
-.portfolio-intro h6 {
-  border: 2px solid $bronze;
-  padding: 10px;
+
+.portfolio-intro {
+  font-size: 10px;
+  padding: 20px;
 }
 
-.portfolio-intro p {
+.project-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-type {
+  text-transform: uppercase;
   font-size: 10px;
-  padding: 0;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .portfolio-card .portfolio-intro {

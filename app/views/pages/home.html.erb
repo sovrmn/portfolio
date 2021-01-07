@@ -84,8 +84,9 @@
                   <%= cl_image_tag project.photo.key, width: 648, crop: :fit %>
                 </div>
                 <div class="portfolio-intro">
-                  <h6><%= project.name %></h6>
-                  <p><%= project.project_type %></p>
+                  <div class="project-name"><%= project.name %></div>
+                  <div class="project-type"><%= project.project_type %></div>
+                  <div class="project-description"><%= project.description %></div>
                 </div>
               <% end %>
             </div>
@@ -109,7 +110,7 @@
         <div class="line-white">
         </div>
       </div>
-      <a class="social-zoom" target="_blank" href="mailto:#">
+      <a class="social-zoom" target="_blank" href="mailto:sovana.romano@gmail.com">
         <i class="far fa-envelope fa-lg"> </i>
         Send me a message
       </a>
