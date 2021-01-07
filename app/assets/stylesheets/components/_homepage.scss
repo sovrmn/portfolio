@@ -180,6 +180,14 @@ h2 {
 }
 
 @media (max-width: 1200px) {
+
+  .intro-picture {
+  height: 30vh;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
   .intro-id {
     display: flex;
     justify-content: center;
@@ -191,5 +199,16 @@ h2 {
   display: flex;
   flex-direction: column;
   }
+}
+
+@media (max-width: 375px) {
+
+  .intro-picture {
+  height: 25vh;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
 }
 
