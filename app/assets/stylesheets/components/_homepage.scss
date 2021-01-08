@@ -1,12 +1,4 @@
-.home-banner {
-  height: 90vh;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  margin: 0px;
-  padding: 20vh 0;
-  position: relative;
-}
+
 
 .landing-page-text {
   color: white;
@@ -25,6 +17,14 @@
   display: block;
   text-align: center;
 }
+.welcome-image {
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.welcome-image img {
+  width: 800px;
+}
 
 .first-section {
   padding-top: 50px;
@@ -36,7 +36,7 @@
   background-color: $bronze;
   display: block;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   margin-top: -300px;
 }
@@ -48,18 +48,19 @@
   padding-top: 120px;
 }
 
+.category {
+ font-size: 32px;
+}
+
 .intro {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.welcome-image {
-  height: 50vh;
-  background-size: cover;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+.intro-id img {
+    width: 450px;
+  }
 
 .about {
   background-color: $light-gray;
@@ -200,14 +201,351 @@ h2 {
   flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image {
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-image img {
+    width: 600px;
+  }
+
+  .intro-id img {
+    width: 450px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+}
+@media (max-width: 414px) {
+
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image {
+    background-size: cover;
+    margin-top: 28px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-image img {
+    width: 414px;
+  }
+
+  .intro-id img {
+    width: 414px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+}
+
+@media (max-width: 411px) {
+
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image {
+    background-size: cover;
+    margin-top: 28px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-image img {
+    width: 411px;
+  }
+
+  .intro-id img {
+    width: 411px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+}
+
 
 @media (max-width: 375px) {
 
-  .intro-picture {
-  height: 25vh;
-  background-size: cover;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image img {
+    width: 310px;
+  }
+
+  .intro-id img {
+    width: 310px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image {
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-image img {
+    width: 320px;
+  }
+
+  .intro-id img {
+    width: 270px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
   }
 
 }
