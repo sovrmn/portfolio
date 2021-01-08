@@ -3,7 +3,7 @@
 <!-- background image -->
 <div class="welcome-section">
   <div class="welcome-image">
-    <%= image_tag "podiumZV.PNG", class:"intro-picture" %>
+    <%= cl_image_tag("https://res.cloudinary.com/dnmgsdi4z/image/upload/v1610045220/HITC_fn9pbp.gif", width: 700, :crop => :fill) %>
   </div>
   <div class="first-section">
   </div>
@@ -31,7 +31,7 @@
       <div class="intro">
         <!-- ID-picture -->
         <div class="intro-id">
-            <%= image_tag "id.png", alt:"My picture ", width:"450"  %>
+            <%= cl_image_tag("https://res.cloudinary.com/dnmgsdi4z/image/upload/v1610037817/id_mkrmeo.png", width: 450, :crop => :fill, :gravity=>"face") %>
         </div>
         <!-- intro-description -->
         <div class="intro-desc">
@@ -44,7 +44,7 @@
             <span class="text">
               Hello, I'm Sovana!
               After more than 10 years of experience as a retail marketing & merchandising specialist for various companies in the cosmetics industry, I decided to broaden my skills to the digital world by attending Le Wagon bootcamp in January 2020, a 9-week full-time intensive bootcamp learning the fundamentals of coding and designing my very first apps.
-              Based in Paris, I stay open to any new and exciting project in web design and in retail design.
+              Based in Paris, I stay open to any new and exciting project in web development and in retail design.
             </span>
           </div>
 
