@@ -201,6 +201,78 @@ h2 {
   flex-direction: column;
   }
 }
+
+@media (max-width: 850px) {
+
+  .second-section {
+    background-color: $bronze;
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-top: -235px;
+  }
+
+  .quote {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0px 20px;
+  }
+
+  .welcome-image {
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-image img {
+    width: 600px;
+  }
+
+  .intro-id img {
+    width: 450px;
+  }
+
+  .category {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .contact {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  }
+
+  .main-text-text {
+    font-size: 20px;
+  }
+
+  .intro-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .p-text {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  .text-skills {
+    margin-right: 0;
+    margin-left: 0 !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+}
+
 @media (max-width: 768px) {
 
   .second-section {
