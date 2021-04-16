@@ -14,20 +14,21 @@ Project.destroy_all
 
 puts "Project creation in process"
 
-p1 = Project.new(name: "mySofie", project_type: "Web development", description: "Website of mySofie, an app which helps you follow-up & optimize you health budget", technical_skills: "wordpress with divi, html, css, ruby on rails" , url: "https://mysofie.fr")
-photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1615367986/Capture_d_e%CC%81cran_2021-03-10_a%CC%80_10.17.36_kczioo.png')
-p1.photo.attach(io: photo, filename: "mySofieLandingPage.png", content_type: "image/png")
+p1 = Project.new(name: "Momi Crouzet photographer", project_type: "Web development", description: "Showcase website of Momi Crouzet, a Japanese professional photographer based in Paris", technical_skills: "wordpress with divi, html, css, ruby on rails" , url: "https://mysofie.fr")
+photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1618580160/portfolio/MomiCrouzet_landingPage_gbvufe.png')
+p1.photo.attach(io: photo, filename: "MomiCrouzetLandingPage.png", content_type: "image/png")
 p1.save!
 
-p2 = Project.new(name: "Glutenfree Please!", project_type: "Web development", description: "Gluten Free please is a recipe sharing platform for glutenfree foodies", technical_skills: "ruby on rails, html, css" , url: "https://glutenfreeplease.herokuapp.com/")
-photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1609765788/portfolio/LPglutenfreeplease_xak5wm.png')
-p2.photo.attach(io: photo, filename: "glutenfreeplease.jpg", content_type: "image/jpg")
+p2 = Project.new(name: "mySofie", project_type: "Web development", description: "Website of mySofie, an app which helps you follow-up & optimize you health budget", technical_skills: "wordpress with divi, html, css, ruby on rails" , url: "https://mysofie.fr")
+photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1615367986/Capture_d_e%CC%81cran_2021-03-10_a%CC%80_10.17.36_kczioo.png')
+p2.photo.attach(io: photo, filename: "mySofieLandingPage.png", content_type: "image/png")
 p2.save!
 
-p3 = Project.new(name: "SimplyRest", project_type: "Web development", description: "SimplyRest is a tool which keeps track of food cost and improve restaurant margins by automating stocks and orders ",technical_skills: "ruby on rails, html, css, javascript" , url: "https://simplyrest-sovrmn.herokuapp.com/")
-photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1609766806/portfolio/SimplyRestOrder_ast9wr.png')
-p3.photo.attach(io: photo, filename: "SimplyRest.jpg", content_type: "image/png")
+p3 = Project.new(name: "Glutenfree Please!", project_type: "Web development", description: "Gluten Free please is a recipe sharing platform for glutenfree foodies", technical_skills: "ruby on rails, html, css" , url: "https://glutenfreeplease.herokuapp.com/")
+photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1609765788/portfolio/LPglutenfreeplease_xak5wm.png')
+p3.photo.attach(io: photo, filename: "glutenfreeplease.jpg", content_type: "image/jpg")
 p3.save!
+
 
 p4 = Project.new(name: "Head in the Clouds", project_type: "Retail project", description: "Brand animation for Issey Miyake Parfums in Copenhagen Airport", url: "")
 photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1609854354/HITC_CPH_dpb2of.png')
