@@ -14,7 +14,7 @@ Project.destroy_all
 
 puts "Project creation in process"
 
-p1 = Project.new(name: "Momi Crouzet photographer", project_type: "Web development", description: "Showcase website of Momi Crouzet, a Japanese professional photographer based in Paris", technical_skills: "wordpress with divi, html, css, ruby on rails" , url: "https://mysofie.fr")
+p1 = Project.new(name: "Momi Crouzet photographer", project_type: "Web development", description: "Showcase website of Momi Crouzet, a Japanese professional photographer based in Paris", technical_skills: "wordpress with divi, css" , url: "https://momicrouzet.com")
 photo = URI.open('https://res.cloudinary.com/dnmgsdi4z/image/upload/v1618580160/portfolio/MomiCrouzet_landingPage_gbvufe.png')
 p1.photo.attach(io: photo, filename: "MomiCrouzetLandingPage.png", content_type: "image/png")
 p1.save!
